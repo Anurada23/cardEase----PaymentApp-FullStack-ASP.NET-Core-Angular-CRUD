@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\payment-details",
+    "\\src\\app\\payment-details\\payment-detail-form",
+    "\\src\\app\\Shared",
+    "\\src\\environments"
+  ],
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,35 @@
+<form [formGroup]="paymentForm" (ngSubmit)="onSubmit()">
+  <input type="hidden" formControlName="paymentDetailsId" />
+
+  <div class="mb-3">
+    <label>Card Owner Name</label>
+    <input class="form-control form-control-lg"
+           placeholder="Name on Card"
+           formControlName="cardOwnersName">
+  </div>
+
+  <div class="mb-3">
+    <label>Card Number</label>
+    <input class="form-control form-control-lg"
+           placeholder="Card Number"
+           formControlName="cardNumber">
+  </div>
+
+  <div class="mb-3">
+    <label>Expiration Date</label>
+    <input class="form-control form-control-lg"
+           placeholder="Expiration Date"
+           formControlName="expirationDate">
+  </div>
+
+  <div class="mb-3">
+    <label>Security Code</label>
+    <input class="form-control form-control-lg"
+           placeholder="Security Code"
+           formControlName="securityCode">
+  </div>
+
+  <div class="d-grid">
+    <button class="btn btn-lg btn-success" type="submit">Submit</button>
+  </div>
+</form>
