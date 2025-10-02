@@ -1,4 +1,4 @@
-# PaymentApp-FullStack-ASP.NET-Core-Angular-CRUD
+# CardEase - PaymentApp-FullStack-ASP.NET-Core-Angular-CRUD
 
 -Project Overview
 
